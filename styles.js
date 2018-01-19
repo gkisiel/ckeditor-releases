@@ -36,6 +36,36 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: 'Italic Title',		element: 'h2', styles: { 'font-style': 'italic' } },
 	{ name: 'Subtitle',			element: 'h3', styles: { 'color': '#aaa', 'font-style': 'italic' } },
 	{
+		name: 'Green',
+		element: 'div',
+		styles: {
+			color: '#2f4f4f',
+			padding: '5px 10px',
+			background: '#f0fff0',
+			border: '1px solid #2f4f4f'
+		}
+	},
+	{
+		name: 'Orange',
+		element: 'div',
+		styles: {
+			color: '#ff8c00',
+			padding: '5px 10px',
+			background: '#faebd7',
+			border: '1px solid #ff8c00'
+		}
+	},
+	{
+		name: 'Red',
+		element: 'div',
+		styles: {
+			color: '#ff0000',
+			padding: '5px 10px',
+			background: '#fff0f5',
+			border: '1px solid #ff0000'
+		}
+	},
+	{
 		name: 'Special Container',
 		element: 'div',
 		styles: {
@@ -134,4 +164,3 @@ CKEDITOR.stylesSet.add( 'default', [
 	{ name: '1080p ', type: 'widget', widget: 'embed', attributes: { 'class': 'embed-1080p' }, group: 'size' }
 
 ] );
-
