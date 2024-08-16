@@ -1,6 +1,7 @@
 {
 	"name": "ckeditor/ckeditor",
 	"description": "JavaScript WYSIWYG web text editor.",
+	"version": "4.7.3.1",
 	"type": "library",
 	"keywords": [ "ckeditor", "fckeditor", "editor", "wysiwyg", "html", "richtext", "text", "javascript" ],
 	"homepage": "http://ckeditor.com",
@@ -9,6 +10,10 @@
 		{
 			"name":  "CKSource",
 			"homepage": "http://cksource.com"
+		},
+		{
+			"name": "Grzegorz Kisielwicz",
+			"homepage": "https://github.com/gkisiel"
 		}
 	],
 	"support": {
